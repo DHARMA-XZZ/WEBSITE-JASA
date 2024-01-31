@@ -1,12 +1,16 @@
 body {
     font-family: sans-serif;
-    background-color: #fff;
+    background-color: #42b625;
+    margin: 0;
   }
   
   header {
+    display: flex;
     background-color: #000;
     color: #fff;
     padding: 20px;
+    justify-content: space-between;
+    align-items: center;
   }
   
   h1 {
@@ -15,6 +19,11 @@ body {
   
   p {
     font-size: 1em;
+  }
+
+  ul {
+    display: flex;
+    gap: 20px;
   }
   
   main {
